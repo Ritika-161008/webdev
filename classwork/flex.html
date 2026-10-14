@@ -4,12 +4,24 @@
 <style>
 .container {
   display:flex;
-  flex-direction: column;
+  flex-direction:column;
    gap:20px;
   background-color: DodgerBlue;
 }
 
+.reverse {
+  display:flex;
+  flex-direction:column-reverse;
+   gap:20px;
+  background-color: DodgerBlue;
+}
 .container div {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+.reverse div {
   background-color: #f1f1f1;
   margin: 20px;
   padding: 10px;
@@ -32,5 +44,12 @@
 <p>Flexbox must have a parent element with the display property set to flex or inline-flex.</p>
 <p>Direct child elements of the flex container automatically becomes flex items.</p>
 
+<div class="reverse">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>  
+  <div>Item 4</div>
+  <div>Item 5</div>
+</div
 </body>
 </html>
