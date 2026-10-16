@@ -1,0 +1,23 @@
+.container {
+  display:flex;
+  background-color:blue;
+  flex-direction: row;
+}
+
+.container2 {
+  display:flex;
+  background-color:blue;
+  flex-direction: column;
+}
+.container div {
+  background-color:yellow;
+  margin: 20px;
+  padding: 10px;
+  font-size: 40px;
+}
+.container2 div {
+  background-color:yellow;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
