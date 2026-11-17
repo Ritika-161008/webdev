@@ -11,7 +11,7 @@
   flex-direction: column;
 }
 .container div {
-    width: 30px;
+    
   background-color:yellow;
   margin: 30px;
   padding: 20px;
@@ -50,4 +50,122 @@
   margin: 20px;
   padding: 30px;
   font-size: 40px;
+}
+
+.justify1 {
+  display:flex;
+  flex-wrap: wrap;
+  background-color:blueviolet;
+  flex-direction:row;
+  justify-content: flex-start;
+
+}
+.justify1 div {
+  background-color:orange;
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+}
+.justify2 {
+  display:flex;
+  flex-wrap: wrap;
+  background-color:blueviolet;
+  flex-direction:row;
+  justify-content: flex-end;
+
+}
+.justify2 div {
+  background-color:orange;
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.justify3 {
+  display:flex;
+  flex-wrap: wrap;
+  background-color:blueviolet;
+  flex-direction:row;
+  justify-content: center;
+
+}
+.justify3 div {
+  background-color:orange;
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.justify4 {
+  display:flex;
+  flex-wrap: wrap;
+  background-color:blueviolet;
+  flex-direction:row;
+  justify-content: space-between;
+
+}
+.justify4 div {
+  background-color:orange;
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.justify5 {
+  display:flex;
+  flex-wrap: wrap;
+  background-color:blueviolet;
+  flex-direction:row;
+  justify-content: space-around;
+
+}
+.justify5 div {
+  background-color:orange;
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+}
+.justify6 {
+  display:flex;
+  flex-wrap: wrap;
+  background-color:blueviolet;
+  flex-direction:row;
+  justify-content: space-evenly;
+
+}
+.justify6 div {
+  background-color:orange;
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+}
+.align-items1 {
+  display:flex;
+  flex-wrap: wrap;
+  background-color:red;
+  flex-direction:row;
+  align-items: center;
+
+}
+.align-items1 div {
+  background-color:pink;
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+  
+}
+.align-items2 {
+  display:flex;
+  flex-wrap: wrap;
+  background-color:red;
+  flex-direction:row;
+  align-items: baseline;
+
+}
+.align-items2 div {
+  background-color:pink;
+  margin: 20px;
+  padding: 30px;
+  font-size: 40px;
+  
 }
